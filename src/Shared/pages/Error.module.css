@@ -1,0 +1,10 @@
+.errorTitle{
+    text-align: center;
+    margin-top:2rem;
+    color:red;
+}
+.errorMessage{
+  
+    text-align: center;
+    font-weight: bold;
+}

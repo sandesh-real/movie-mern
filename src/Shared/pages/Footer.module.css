@@ -1,0 +1,14 @@
+.footer{
+    font-size:0.7rem;
+    bottom: 0;
+    background-color: rgb(51,51,51);
+    text-align: center;
+    padding:1rem 0.5rem;
+    color:#fff;
+    z-index: 1;
+}
+@media screen and (min-width:600px) {
+    .footer{
+        font-size: 1rem;
+    }
+}

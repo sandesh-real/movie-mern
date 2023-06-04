@@ -1,0 +1,13 @@
+.seatInfo {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 90%;
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+}
+.seatCountText,
+.ticketCostText {
+  margin-right: 0.2rem;
+}

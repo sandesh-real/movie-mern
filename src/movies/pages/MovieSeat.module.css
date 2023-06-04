@@ -1,0 +1,74 @@
+.movieSeatWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movieDescription {
+  display: flex;
+  flex-direction: column;
+}
+.movieDesUpper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.titleDes {
+  border-right: 1px solid #000;
+  padding-right: 1rem;
+  margin-right: 3rem;
+}
+.movieTitle {
+  font-size: 1.5rem;
+}
+.movieRuntime {
+  font-size: 0.9rem;
+}
+.movieRuntimeText {
+  margin-right: 0.2rem;
+}
+.lowerDesc {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.timeLeft {
+  font-weight: 700;
+}
+
+.seatsWrapper {
+  position: relative;
+  width: 257px;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.seatsContainer {
+  text-align: center;
+
+  width: 650px;
+}
+
+
+.screen {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width:600px) {
+  .seatsWrapper{
+    width:520px;
+  }
+  .seatsContainer {
+  text-align: center;
+
+  width: 650px;
+}
+}
+@media screen and (min-width:700px) {
+  .seatsWrapper{
+    width:650px;
+    overflow:initial;
+  }
+
+}

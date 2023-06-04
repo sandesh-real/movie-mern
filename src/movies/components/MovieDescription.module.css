@@ -1,0 +1,30 @@
+.movieDescription {
+  height: 100%;
+  text-align: start;
+  margin-top: 0.3rem;
+  color: #fff;
+  padding: 0.6rem 1rem;
+}
+
+.movieDescription h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+.movieDescription h2 {
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+.movieDescription h2 span {
+  margin-right: 0.2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .movieDescription h1 {
+    font-size: 1.4rem;
+  }
+  .movieDescription h2 {
+    font-size:1rem;
+  }
+}

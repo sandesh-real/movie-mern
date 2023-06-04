@@ -1,0 +1,57 @@
+.signUpHeader{
+    text-align: center;
+    font-size:1.8rem;
+    padding-top:0.6rem;
+    color: #fff;
+}
+.formWrapper{
+    /* width: 50%; */
+    /* margin:0 auto; */
+    background-color: #000;
+    border-radius: 0.2rem;
+}
+.form{
+    padding:0 2rem;
+     padding-bottom: 2rem;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+.passwordWrapper,.nameWrapper{
+    margin:0.4rem 0;
+}
+.nameWrapper label,.emailWrapper label,.passwordWrapper label
+{
+    font-size:0.8rem;
+    color:#fff;
+}
+.nameWrapper input,.emailWrapper input,.passwordWrapper input
+{
+    padding:0.3rem 0.4rem;
+    width: 100%;
+    border-radius: 0.2rem;
+    outline: none;
+    border:none;
+    
+}
+
+@media screen and (min-width: 600px) {
+  .signUpWrapper {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .nameWrapper label,
+  .emailWrapper label,
+  .passwordWrapper label {
+    font-size:1.1rem;
+  }
+  .nameWrapper input,
+  .emailWrapper input,
+  .passwordWrapper input {
+    padding: 0.4rem 0.4rem;
+    font-size:1.2rem;
+  }
+  .passwordWrapper {
+  margin: 0.8rem 0;
+}
+}

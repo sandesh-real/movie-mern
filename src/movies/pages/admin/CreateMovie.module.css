@@ -1,0 +1,116 @@
+.createMovieWrapper {
+  /* width:45%; */
+}
+.titleWrapper,
+.releaseDateWrapper,
+.directedByWrapper,
+.starringWrapper,
+.genreWrapper,
+.runtimeWrapper,
+.statusWrapper,
+.imageWrapper,
+.trailerWrapper,
+.synopsisWrapper,
+.showTimeWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.titleWrapper label,
+.releaseDateWrapper label,
+.directedByWrapper label,
+.starringWrapper label,
+.genreWrapper label,
+.runtimeWrapper label,
+.statusWrapper label,
+.imageWrapper label,
+.trailerWrapper label,
+.synopsisWrapper label,
+.showTimeWrapper label {
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+}
+.titleWrapper input,
+.releaseDateWrapper input,
+.directedByWrapper input,
+.starringWrapper input,
+.genreWrapper input,
+.runtimeWrapper input,
+.statusWrapper select,
+.imageWrapper input,
+.trailerWrapper input,
+.synopsisWrapper textarea,
+.showTimeWrapper input {
+  margin-bottom: 0.3rem;
+  padding: 0.4rem 0.2rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #fff;
+}
+.imagePickerBtn {
+  margin-bottom: 0.7rem;
+}
+.postImg {
+  width: 80px;
+  height: 80px;
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.2rem;
+}
+.postImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+}
+.showTimeAdding {
+  display: flex;
+}
+.showTimeAdding input {
+  width: 90%;
+  margin-right: 1rem;
+}
+
+.hrMin ul li {
+  list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+  .createMovieWrapper {
+    width: 40%;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+.createMovieTitle{
+    font-size: 1.5rem;
+}
+.titleWrapper label,
+.releaseDateWrapper label,
+.directedByWrapper label,
+.starringWrapper label,
+.genreWrapper label,
+.runtimeWrapper label,
+.statusWrapper label,
+.imageWrapper label,
+.trailerWrapper label,
+.synopsisWrapper label,
+.showTimeWrapper label {
+ 
+  font-size: 1rem;
+}
+.titleWrapper input,
+.releaseDateWrapper input,
+.directedByWrapper input,
+.starringWrapper input,
+.genreWrapper input,
+.runtimeWrapper input,
+.statusWrapper select,
+.imageWrapper input,
+.trailerWrapper input,
+.synopsisWrapper textarea,
+.showTimeWrapper input {
+
+  padding: 0.6rem 0.2rem;
+
+}
+}

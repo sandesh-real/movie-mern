@@ -1,0 +1,37 @@
+.seatRow {
+  display: flex;
+  justify-content: center;align-items: center;
+  margin-bottom: 0.2rem;
+} 
+.seatAlpha { 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin-right: 1rem;
+  height: 36px;
+  width: 36px;
+}
+.seatNum {
+  position: relative;
+  display: inline-block;
+  margin: 0 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+}
+.seatLogo {
+  font-size: 2rem;
+}
+.setNumAct {
+  position: absolute;
+  top: 43%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  z-index: 10;
+  color: #fff;
+  font-size: 0.8rem;
+}

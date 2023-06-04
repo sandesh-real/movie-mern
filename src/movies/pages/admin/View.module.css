@@ -1,0 +1,35 @@
+.viewWrapper{
+
+    margin-top:2rem;
+} 
+.viewTitle{
+    margin-bottom: 1rem;
+}
+.movieList{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    padding:1rem 0.5rem;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.1);
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.movieListBtn{
+    display: flex;
+}
+@media screen and (min-width: 600px) {
+  .viewWrapper {
+    margin-top:0;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+.viewTitle{
+    font-size: 1.5rem;
+}
+}

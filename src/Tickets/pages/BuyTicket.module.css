@@ -1,0 +1,39 @@
+.YourTicketHeader{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.ticketInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+/* span{
+    font-weight: 700;
+} */
+.payment{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 0;
+}
+.payment p{
+    margin-bottom: 0.4rem;
+}
+
+@media screen and (min-width:600px) {
+    .payment p{
+        margin-bottom: 1rem;
+    }
+ .paymentLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+}

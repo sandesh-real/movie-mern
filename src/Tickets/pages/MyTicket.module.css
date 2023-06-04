@@ -1,0 +1,20 @@
+.yourTicketHeader{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.ticketInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ticket{
+    margin-bottom: 2rem;
+}
+.ticketBtn{
+    display: flex;
+    justify-content: center;
+}
+.Sharebtn{
+    margin-right: 0.5rem;
+}

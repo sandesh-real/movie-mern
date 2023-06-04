@@ -1,0 +1,13 @@
+
+.Movie{
+    display: flex;
+    flex-direction: column;
+ }
+
+ @media screen and (min-width:600px) {
+    .Movie{
+        justify-content: center;
+        
+        flex-direction: row;
+    }
+ }

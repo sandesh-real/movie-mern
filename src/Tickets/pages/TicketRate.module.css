@@ -1,0 +1,47 @@
+.ticketHeading{
+    text-align: center;
+    font-size:1.5rem;
+}
+.note{
+    text-align: center; 
+    font-size: 0.8rem;
+}
+.rateWrapper{
+    margin-top:0.8rem   
+}
+.rateBody{
+    margin-bottom: 0.6rem;
+}
+.rateText{
+    font-weight: 700;
+    font-size:0.8rem;
+}
+.amount{
+    font-size:0.8rem;
+}
+.rateWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:600px) {
+    .ticketHeading{
+        font-size:1.8rem;
+    }
+    .rateText{
+        font-size: 0.9rem;
+    }
+    .amount{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width:800px) {
+   .rateText{
+        font-size: 1rem;
+    }
+    .amount{
+        font-size: 1rem;
+    }
+}
